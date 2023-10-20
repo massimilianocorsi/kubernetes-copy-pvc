@@ -33,5 +33,11 @@ This repository contains a collection of scripts and tools for simplifying the p
 
 This script facilitates the easy copying of PVC data within the same cluster and namespace, making it a helpful tool for managing your Kubernetes resources.
 
+## Acknowledgments
+
+This script was inspired by the following source:
+- [Migrating Kubernetes PVC to Another PVC](https://justyn.io/til/migrate-kubernetes-pvc-to-another-pvc/) by Justyn Shull
+
+A big thank you to Justyn Shull for the inspiration and guidance in creating this script.
 
 
