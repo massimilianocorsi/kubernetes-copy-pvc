@@ -8,9 +8,9 @@ This repository contains a collection of scripts and tools for simplifying the p
 - Select source and destination PVCs interactively.
 - Create Kubernetes Job resources for PVC data migration.
 - Monitor job progress and completion.
-- Supports copying PVCs within the same cluster or across different clusters.
+- Supports copying PVCs within the same namespace and cluster
 - Automatically handle PVC copying with minimal manual intervention.
-- This tool is especially useful when you need to move data between namespaces, clusters, or when you want to create backups of your PVC data.
+- This tool is especially useful when you need to move data between the same namespaces and clusters, create backups of your PVC data, or change the storage class in use.
 
 **Usage:**
 
