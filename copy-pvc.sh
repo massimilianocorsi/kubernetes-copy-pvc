@@ -11,7 +11,7 @@ configure_kubecli() {
         echo "Using custom text as Kubernetes CLI: $kubecli"
     fi
 }
-
+configure_kubecli
 
 # Function to create a migration job
 create_migration_job() {
@@ -101,7 +101,7 @@ is_duplicate_pair() {
     return 1  # The pair is not a duplicate
 }
 
-configure_kubecli()
+
 
 while true; do
     # Run the kubectl command to get the list of namespaces, extract them with awk, and number them
