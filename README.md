@@ -1,4 +1,4 @@
-# kubernetes copy multiple pvc
+# Kubernetes copy multiple pvc
 Effortlessly copy multiple Kubernetes Persistent Volume Claims between the same namespaces and clusters.
 
 This repository contains a collection of scripts and tools for simplifying the process of copying Persistent Volume Claims (PVCs) between namespaces or clusters in a Kubernetes environment. It provides an interactive command-line interface for selecting source and destination PVCs, creating migration jobs, monitoring their progress, and executing the migrations.
